@@ -13,7 +13,7 @@ class Settings:
             with open(os.path.join(os.path.dirname(__file__), "../secrets/config.json")) as config_file:
                 config_data = json.load(config_file)
                 self.TELEGRAM_BOT_TOKEN = config_data["TELEGRAM_BOT_TOKEN"]
-                self.GSPREAD_CREDENTIALS = os.path.join(os.path.dirname(__file__), "../secrets/pgpractice-adce347384eb.json")
+                self.GSPREAD_CREDENTIALS = os.path.join(os.path.dirname(__file__), "../secrets/pejam-gadget-bot-b915e9519c2c.json")
         else:
             self.TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
             self.GSPREAD_CREDENTIALS = {
