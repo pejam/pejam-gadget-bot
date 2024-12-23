@@ -23,7 +23,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             reply_markup=reply_markup
         )
 
-# هندلر پیام‌ها برای مدیریت دکمه‌های منو
+# هندلر پیام‌ها برای مدیریت دکمه‌های منو  تست
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_message = update.message.text.strip()
 
